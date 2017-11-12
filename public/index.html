@@ -1,0 +1,1215 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.2" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kyson's Notes">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Kyson's Notes">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kyson's Notes">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '6349339234070955000',
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+  <title> Kyson's Notes </title>
+</head>
+
+<body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Kyson's Notes</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">记录、踩坑</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="http://aboutkwj.tk/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/17/Ceph Primary Affinity/" itemprop="url">
+                  Ceph Primary Affinity
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-17T20:51:26+08:00" content="2016-11-17">
+              2016-11-17
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/17/Ceph Primary Affinity/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/17/Ceph Primary Affinity/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Ceph 有两种控制方式可以来改变 OSDMap 对数据分布的影响，分别是 Crush Weight 和 OSD Weight，但是它们的改变会同时造成pg的迁移，用户可能期望从一份数据的其他副本读而不是主副本，因此增加了 osd primary-affinity 选项来控制读请求的请求分流。primary-affinity 并不会造成pg的迁移。  </p>
+<h5 id="Note："><a href="#Note：" class="headerlink" title="Note："></a>Note：</h5><blockquote>
+<p><em>You must enable ‘mon osd allow primary affinity = true’ on the mons before you can adjust primary-affinity. note that older clients will no longer be able to communicate with the cluster.</em>  </p>
+</blockquote>
+<p>查看监视器是否允许 primary affinity：<br><code>ceph --admin-daemon /var/run/ceph/ceph-mon.*.asok config show | grep &#39;primary_affinity&#39;</code>  </p>
+<p>如果为<code>false</code>修改配置文件ceph.conf<br><code>mon osd allow primary affinity = true</code>  </p>
+<p>改变primary affinity并查看改变后的结果:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># ceph osd primary-affinity osd.0 0</div><div class="line">set osd.0 primary-affinity to 0 (802)</div><div class="line"></div><div class="line"># ceph pg dump | grep active+clean | egrep &quot;\[0,&quot; | wc -l</div><div class="line">0</div><div class="line"># ceph pg dump | grep active+clean | egrep &quot;,0\]&quot; | wc -l</div><div class="line">180</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/17/Parted分区对齐/" itemprop="url">
+                  Parted分区对齐
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-17T13:57:10+08:00" content="2016-11-17">
+              2016-11-17
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/17/Parted分区对齐/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/17/Parted分区对齐/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在对大于2TB磁盘进行分区的时候总是提示：</p>
+<blockquote>
+<p>Warning: The resulting partition is not properly aligned for best performance.  </p>
+</blockquote>
+<p>这个警告是分区没有对齐的问题，可以检查一下是否对齐  </p>
+<pre><code>(parted) align-check optimal 1                                   
+1 not aligned
+</code></pre><p>解决办法：  </p>
+<pre><code>(parted) mkpart primary  0% x
+</code></pre><p>x代表分区结束的大小，可以是百分比也可以是具体的字节  </p>
+<hr>
+<p>附上分区的shell脚本:  </p>
+<pre><code>
+#! /bin/sh
+DEVICE=$1
+BOOT_SIZE=&quot;1000&quot;
+ROOTFS_SIZE=&quot;21000&quot;
+CEPH_DATA_SIZE=&quot;31000&quot;
+PETASAN_DATA_SIZE=&quot;50000&quot;
+
+SLEEP_SEC=3
+
+
+echo Formatting $DEVICE
+
+dd if=/dev/zero of=$DEVICE  bs=1k count=1
+sync
+sleep $SLEEP_SEC
+
+
+#parted $DEVICE  &lt;&lt; EOF &gt;/dev/null 2&gt;&amp;1
+parted $DEVICE  &lt;&lt; EOF
+
+mklabel gpt 
+mkpart primary 0% $BOOT_SIZE
+mkpart primary $BOOT_SIZE $ROOTFS_SIZE
+mkpart primary $ROOTFS_SIZE $CEPH_DATA_SIZE
+mkpart primary $CEPH_DATA_SIZE $PETASAN_DATA_SIZE
+quit
+EOF
+echo Formatting complete
+</code></pre>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/06/Ceph常用操作命令/" itemprop="url">
+                  Ceph常用操作命令
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-06T21:58:12+08:00" content="2016-11-06">
+              2016-11-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/06/Ceph常用操作命令/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/Ceph常用操作命令/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>记录个人最近在用的ceph操作命令<br>持续更新…  </p>
+<hr>
+<p><strong>删除osd</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">1）ceph osd crush reweight osd.x 0.0  </div><div class="line">... 等待平衡结束....  </div><div class="line">2）ceph osd out osd.x  </div><div class="line">3）service ceph stop osd.x  </div><div class="line">4）ceph osd crush remove osd.x  </div><div class="line">5）ceph auth del osd.x  </div><div class="line">6）ceph osd rm osd.X</div></pre></td></tr></table></figure></p>
+<p><strong>导出crush map</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ceph osd getcrushmap -o /tmp/crushmap.txt</div><div class="line">crushtool -d /tmp/crushmap.txt -o /tmp/crushmap-decompile</div></pre></td></tr></table></figure></p>
+<p><strong>查看osd的ip</strong> <code>ceph osd dump</code> </p>
+<p><strong>创建了一个rbd卷，想删除的时候总是报错一直被占用，想知道卷被谁占用了？</strong></p>
+<p>首先查看卷的相关信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ rbd info testjevon/foo  </div><div class="line">rbd image &apos;foo&apos;:  </div><div class="line">    size 10240 MB in 2560 objects  </div><div class="line">    order 22 (4096 kB objects)  </div><div class="line">    block_name_prefix: rb.0.5aec5.238e1f29  </div><div class="line">    format: 1</div></pre></td></tr></table></figure></p>
+<p>接着，找出卷的header，<code>rados -p testjevon ls|grep foo.rbd</code><br>最后，查找谁map了卷，<code>rados -p testjevon listwatchers foo.rbd</code>  </p>
+<p><strong>pg活动在哪些OSD：</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ceph pg dump |  awk &apos;&#123;print $1,$10,$15,$16,$17,$18&#125;&apos;</div><div class="line">ceph pg dump pgs|grep ^1|awk &apos;&#123;print $1,$2,$15&#125;&apos;</div></pre></td></tr></table></figure></p>
+<p><strong>删除pool中的对象</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">rados rm -p &#123;pool-name&#125; &#123;object-name&#125;  </div><div class="line">批量：for ((i=1;i&lt;50;i++)); do rados rm -p .rgw.buckets.index .dir.default.14111.$i; done</div><div class="line">rgw bucket待删除对象：</div><div class="line">radosgw-admin gc list --include-all</div><div class="line">rgw bucket 查看删除时间设定</div><div class="line">ceph --admin-daemon /var/run/ceph/ceph-mon.mon.asok config show | grep gc</div></pre></td></tr></table></figure></p>
+<p><strong>查看osd.x作为primary个数</strong><br><code>ceph pg dump | grep active+clean | egrep &quot;,0\]&quot; | wc -l</code></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/06/Ceph修改日志路径/" itemprop="url">
+                  Ceph修改日志路径
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-06T16:28:32+08:00" content="2016-11-06">
+              2016-11-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/06/Ceph修改日志路径/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/Ceph修改日志路径/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>实验测试阶段，只是想测试多余内存作为ceph日志盘对读写速度的改善情况。</p>
+<h1 id="修改ceph日志路径"><a href="#修改ceph日志路径" class="headerlink" title="修改ceph日志路径"></a>修改ceph日志路径</h1><p>ubuntu 14.04+ceph hammer 0.94.2  </p>
+<pre><code>### Stop osd
+$ stop ceph-osd id=&lt;osd num&gt;
+
+### Flush Journal
+$ ceph-osd --flush-journal -i &lt;osd num&gt;
+
+### Create symlink to partition
+$ rm /var/lib/ceph/osd/ceph-&lt;osd num&gt;/journal
+$ ln -s /dev/ram0 /var/lib/ceph/osd/ceph-&lt;osd num&gt;/journal
+
+### Create new journal
+$ ceph-osd --mkjournal -i &lt;osd num&gt;
+$ start ceph-osd id=&lt;osd num&gt;
+</code></pre><p>这个方案osd服务可以正常启动</p>
+<h1 id="不成功案例"><a href="#不成功案例" class="headerlink" title="不成功案例"></a>不成功案例</h1><ul>
+<li>选择在/run/shm使用dd创建一块设备然后挂载到ceph存储的日志路径上，osd无法启动。</li>
+<li>使用tmpfs，然后把/mnt/ramdisk <code>ln -s</code>到日志路径会导致osd无法启动。<br><code>mount -t tmpfs tmpfs /mnt/ramdisk  -o size=2G,defaults,noatime,mode=777</code>  </li>
+</ul>
+<p>错误日志：</p>
+<blockquote>
+<p>2016-11-05 10:11:19.813628 7f6f54d9d900  0 ceph version 0.94.2(5fb85614ca8f354284c713a2f9c610860720bbf3), process ceph-osd, pid 3487<br>2016-11-05 10:11:19.828706 7f6f54d9d900  0 filestore(/var/lib/ceph/osd/ceph-7) backend generic (magic 0xef53)<br>2016-11-05 10:11:19.829544 7f6f54d9d900  0 genericfilestorebackend(/var/lib/ceph/osd/ceph-7) detect_features: FIEMAP ioctl is supported and appears to work<br>2016-11-05 10:11:19.829553 7f6f54d9d900  0 genericfilestorebackend(/var/lib/ceph/osd/ceph-7) detect_features: FIEMAP ioctl is disabled via ‘filestore fiemap’ config option<br>2016-11-05 10:11:19.853807 7f6f54d9d900  0 genericfilestorebackend(/var/lib/ceph/osd/ceph-7) detect_features: syncfs(2) syscall fully supported (by glibc and kernel)<br>2016-11-05 10:11:19.855109 7f6f54d9d900  0 filestore(/var/lib/ceph/osd/ceph-7) limited size xattrs<br>2016-11-05 10:11:19.858255 7f6f54d9d900  0 filestore(/var/lib/ceph/osd/ceph-7) mount: enabling WRITEAHEAD journal mode: checkpoint is not enabled<br>2016-11-05 10:11:19.859704 7f6f54d9d900 -1 journal FileJournal::_open: disabling aio for non-block journal.  Use journal_force_aio to force use of aio anyway<br>2016-11-05 10:11:19.859714 7f6f54d9d900  1 journal _open /var/lib/ceph/osd/ceph-7/journal fd 19: 10737418240 bytes, block size 4096 bytes, directio = 1, aio = 0<br>2016-11-05 10:11:19.859756 7f6f54d9d900 -1 journal FileJournal::open: ondisk fsid 00000000-0000-0000-0000-000000000000 doesn’t match expected 54de23c7-9a5f-4f30-8568-bc0354a6d788, invalid (someone else’s?) journal<br>2016-11-05 10:11:19.859822 7f6f54d9d900 -1 filestore(/var/lib/ceph/osd/ceph-7) mount failed to open journal /var/lib/ceph/osd/ceph-7/journal: (22) Invalid argument<br>2016-11-05 10:11:19.869951 7f6f54d9d900 -1 osd.7 0 OSD:init: unable to mount object store<br>2016-11-05 10:11:19.869970 7f6f54d9d900 -1  ** ERROR: osd init failed: (22) Invalid argument</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/06/Hexo-NexT-GitHub记录/" itemprop="url">
+                  Hexo-NexT-GitHub记录
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-06T12:39:16+08:00" content="2016-11-06">
+              2016-11-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/06/Hexo-NexT-GitHub记录/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/Hexo-NexT-GitHub记录/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>持续更新…  </p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p>配置过程并不复杂，主要参考两个文档：  </p>
+<blockquote>
+<p>1.<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT</a><br>2.<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo</a>  </p>
+</blockquote>
+<p>版本：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">C:\Users\kyson&gt;hexo -v</div><div class="line">hexo-cli: 1.0.2</div><div class="line">os: Windows_NT 10.0.10586 win32 x64</div><div class="line">http_parser: 2.7.0</div><div class="line">node: 6.9.1</div><div class="line">v8: 5.1.281.84</div><div class="line">uv: 1.9.1</div><div class="line">zlib: 1.2.8</div><div class="line">ares: 1.10.1-DEV</div><div class="line">icu: 57.1</div><div class="line">modules: 48</div><div class="line">openssl: 1.0.2j</div></pre></td></tr></table></figure></p>
+<h1 id="踩坑"><a href="#踩坑" class="headerlink" title="踩坑"></a>踩坑</h1><p>安装hexo-deploy-git部署到github上的时候,出现错误。<br><strong>官方_config.yml配置：</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: &lt;repository url&gt;</div><div class="line">  branch: [branch]</div><div class="line">  message: [message]</div></pre></td></tr></table></figure></p>
+<p><strong>修改后：</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:  </div><div class="line">  type: git</div><div class="line">  repository: &lt;repository url&gt;</div><div class="line">  branch: [branch]</div><div class="line">  message: [message]</div></pre></td></tr></table></figure></p>
+<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><ul>
+<li>一个GitHub账号对应一个用户或者一个组织，GitHub会给这个用户分配一个域名：username.github.io，当用户访问这个域名时，GitHub会去解析username用户下，username.github.io项目的master分支。</li>
+<li>GitHub还为每个项目提供了域名，例如，你有一个项目名为blog， GitHub为这个项目提供的域名为username.github.io/blog，当你访问这个域名时，GitHub会去解析username用户下，blog项目的gh-pages 分支。  </li>
+</ul>
+<p>所以，要搭建自己的博客，你可以选择建立名为username.github.io的项目， 在master分支下存放网站源代码，也可以选择建立名为 blog 的项目，在 gh-pages分支下存放网站源代码。</p>
+<h1 id="Makedown-amp-Hexo"><a href="#Makedown-amp-Hexo" class="headerlink" title="Makedown&amp;Hexo"></a>Makedown&amp;Hexo</h1><ul>
+<li>markdown标题标准写法写法需要在”#”和后面字符之间加一个空格,否则Hexo无法解析。</li>
+<li>代码块用三个反单引号<em>```</em>包裹，一个反单引号会导致代码挤在一行。</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Kyson" />
+          <p class="site-author-name" itemprop="name">Kyson</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/kwj1399" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/112371314/" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Kyson</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">本站总访客<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>人</span>
+  
+
+  
+    <span class="site-pv">本站总浏览<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.2"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"kwj1399"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
